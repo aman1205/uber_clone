@@ -9,7 +9,7 @@ import CustomButton from "@/components/CustomButton";
 import { images } from "@/constants";
 import { fetchAPI } from "@/lib/fetch";
 import { useLocationStore } from "@/store";
-import { PaymentProps } from "@/types/type";
+import { PaymentProps } from "@/types/type.d";
 
 const Payment = ({
   fullName,
@@ -54,7 +54,7 @@ const Payment = ({
         confirmHandler: async (
           paymentMethod,
           shouldSavePaymentMethod,
-          intentCreationCallback,
+          intentCreationCallback
         ) => {
           const { paymentIntent, customer } = await fetchAPI(
             "/(api)/(stripe)/create",
@@ -69,7 +69,7 @@ const Payment = ({
                 amount: amount,
                 paymentMethodId: paymentMethod.id,
               }),
-            },
+            }
           );
 
           if (paymentIntent.client_secret) {
