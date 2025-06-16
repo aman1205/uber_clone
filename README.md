@@ -1,8 +1,3 @@
-Here’s a polished and professional `README.md` file for your **Uber Clone** project:
-
----
-
-````markdown
 # 🚗 UBER_CLONE
 
 **Drive Innovation, Empower Mobility, Transform Journeys**
@@ -50,18 +45,6 @@ Here’s a polished and professional `README.md` file for your **Uber Clone** pr
 
 ---
 
-## 📁 Table of Contents
-
-- [Overview](#-overview)
-- [Why uber_clone?](#-why-uber_clone)
-- [Built With](#-built-with)
-- [Getting Started](#-getting-started)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Testing](#-testing)
-- [License](#-license)
-
----
 
 ## 🛠 Getting Started
 
@@ -86,45 +69,29 @@ Ensure you have the following installed:
 
 2. **Navigate to the project directory:**
 
-   ```bash
    cd uber_clone
-   ```
 
-3. **Install dependencies:**
 
-   ```bash
+3. Install dependencies:
+
    npm install
-   ```
 
----
 
 ## ▶️ Usage
 
 Start the development server:
 
-```bash
 npm start
-```
 
 Then, scan the QR code with your Expo Go app or run it directly on a simulator/emulator.
-
 
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
----
 
 ## 👨‍💻 Author
 
 **Aman Kumar**
 [GitHub](https://github.com/aman1205) • [LinkedIn](https://linkedin.com/in/aman1205)
 
----
-
-```
-
----
-
-Let me know if you want badges for Expo, Stripe, or a link to a live demo (if deployed).
-```
