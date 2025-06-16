@@ -45,7 +45,6 @@
 
 ---
 
-
 ## 🛠 Getting Started
 
 ### ✅ Prerequisites
@@ -67,31 +66,52 @@ Ensure you have the following installed:
    git clone https://github.com/aman1205/uber_clone
 ````
 
-2. **Navigate to the project directory:**
+2. **Set Up Environment Variables**
 
+   Create a new file named `.env` in the root of your project and add the following content:
+
+   EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=
+   EXPO_PUBLIC_PLACES_API_KEY=
+   EXPO_PUBLIC_DIRECTIONS_API_KEY=
+   DATABASE_URL=
+   EXPO_PUBLIC_SERVER_URL=https://uber.dev/
+   EXPO_PUBLIC_GEOAPIFY_API_KEY=
+   EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+   STRIPE_SECRET_KEY=
+
+3. **Navigate to the project directory:**
+
+   ```bash
    cd uber_clone
+   ```
 
+4. **Install dependencies:**
 
-3. Install dependencies:
-
+   ```bash
    npm install
+   ```
 
+---
 
 ## ▶️ Usage
 
 Start the development server:
 
+```bash
 npm start
+```
 
 Then, scan the QR code with your Expo Go app or run it directly on a simulator/emulator.
+
+---
 
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
+---
 
 ## 👨‍💻 Author
 
 **Aman Kumar**
 [GitHub](https://github.com/aman1205) • [LinkedIn](https://linkedin.com/in/aman1205)
-
